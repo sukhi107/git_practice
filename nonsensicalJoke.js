@@ -24,10 +24,10 @@ for (let line in jokeInfo) {
             break
         case 'secondLine':
             joke.push(`${jokeInfo[line][index]}`);
-            break;
+            break
         case 'thirdLine':
             joke.push(`${jokeInfo[line][index]}`);
-            break;
+            break
         default:
             joke.push('You ruined the joke!');
     }
